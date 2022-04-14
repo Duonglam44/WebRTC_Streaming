@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video {
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-color: #bdbdbd;
+  object-fit: cover;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
